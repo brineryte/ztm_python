@@ -1,5 +1,5 @@
 import unittest
-import guessing_game
+from practice_exercises import guessing_game
 
 
 class TestGuessingGame(unittest.TestCase):

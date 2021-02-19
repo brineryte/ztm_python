@@ -1,6 +1,6 @@
 from PIL import Image, ImageFilter
 
-img_path = '../images'
+img_path = 'images'
 
 img = Image.open(f'{img_path}/bulbasaur.jpg')
 filtered_img = img.filter(ImageFilter.GaussianBlur)
