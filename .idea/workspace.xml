@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7c365-a98e-4925-8620-8329a8f74ec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pdf/pdf_stuff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -191,6 +191,7 @@
       <workItem from="1613744261553" duration="7000" />
       <workItem from="1613879618996" duration="3495000" />
       <workItem from="1613883156536" duration="857000" />
+      <workItem from="1613884685102" duration="36000" />
     </task>
     <servers />
   </component>
