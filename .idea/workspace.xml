@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7c365-a98e-4925-8620-8329a8f74ec6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pdf/PdfMerger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/dummy.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdf_watermarker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/rotated.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/twopage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/wtr.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/pdf_stuff.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/pdf_stuff.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +38,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -44,12 +51,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\ztm_python\pdf" />
       <recent name="C:\git\ztm_python\image_processing" />
       <recent name="C:\git\ztm_python\practice_exercises" />
       <recent name="C:\git\ztm_python\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.JPGtoPNGconverter">
+  <component name="RunManager" selected="Python.pdf_stuff">
     <configuration name="JPGtoPNGconverter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ztm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="passwordchecker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pdf_stuff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ztm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,12 +132,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\git\ztm_python\practice_exercises\passwordchecker.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdf/pdf_stuff.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pdf_stuff" />
         <item itemvalue="Python.JPGtoPNGconverter" />
         <item itemvalue="Python.image_processing" />
         <item itemvalue="Python tests.pytest in test_guessing_game.py" />
         <item itemvalue="Python.guessing_game" />
-        <item itemvalue="Python.passwordchecker" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +200,9 @@
       <workItem from="1613879618996" duration="3495000" />
       <workItem from="1613883156536" duration="857000" />
       <workItem from="1613884685102" duration="36000" />
+      <workItem from="1613884799174" duration="61000" />
+      <workItem from="1614003602918" duration="25000" />
+      <workItem from="1614004424042" duration="3771000" />
     </task>
     <servers />
   </component>
@@ -246,6 +257,7 @@
     <SUITE FILE_PATH="coverage/ztm_python$passwordchecker.coverage" NAME="passwordchecker Coverage Results" MODIFIED="1613707069847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ztm_python$guessing_game.coverage" NAME="guessing_game Coverage Results" MODIFIED="1613709569268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ztm_python$listIndex.coverage" NAME="listIndex Coverage Results" MODIFIED="1613496820868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ztm_python$pdf_stuff.coverage" NAME="pdf_stuff Coverage Results" MODIFIED="1614005099154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
     <SUITE FILE_PATH="coverage/ztm_python$ex_highest_even.coverage" NAME="ex_highest_even Coverage Results" MODIFIED="1613490134398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ztm_python$translator.coverage" NAME="translator Coverage Results" MODIFIED="1613685533785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ztm_python$image_processing.coverage" NAME="image_processing Coverage Results" MODIFIED="1613711515270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing" />
