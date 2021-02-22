@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7c365-a98e-4925-8620-8329a8f74ec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pdf/PdfMerger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/dummy.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/pdf_watermarker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/rotated.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/twopage.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/wtr.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_stuff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/pdf_stuff.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/pdf_stuff.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="C:\git\ztm_python\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pdf_stuff">
+  <component name="RunManager" selected="Python.email_stuff">
     <configuration name="JPGtoPNGconverter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ztm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guessing_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="email_stuff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ztm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/email" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\git\ztm_python\practice_exercises\guessing_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email/email_stuff.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.email_stuff" />
         <item itemvalue="Python.pdf_stuff" />
         <item itemvalue="Python.JPGtoPNGconverter" />
         <item itemvalue="Python.image_processing" />
         <item itemvalue="Python tests.pytest in test_guessing_game.py" />
-        <item itemvalue="Python.guessing_game" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +198,8 @@
       <workItem from="1613884685102" duration="36000" />
       <workItem from="1613884799174" duration="61000" />
       <workItem from="1614003602918" duration="25000" />
-      <workItem from="1614004424042" duration="3771000" />
+      <workItem from="1614004424042" duration="4402000" />
+      <workItem from="1614017092755" duration="1529000" />
     </task>
     <servers />
   </component>
@@ -263,6 +260,7 @@
     <SUITE FILE_PATH="coverage/ztm_python$image_processing.coverage" NAME="image_processing Coverage Results" MODIFIED="1613711515270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing" />
     <SUITE FILE_PATH="coverage/ztm_python$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1613540163786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ztm_python$find_dupes.coverage" NAME="find_dupes Coverage Results" MODIFIED="1613540651069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ztm_python$email_stuff.coverage" NAME="email_stuff Coverage Results" MODIFIED="1614018614353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email" />
     <SUITE FILE_PATH="coverage/ztm_python$ex_printpicture.coverage" NAME="ex_printpicture Coverage Results" MODIFIED="1613250091814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ztm_python$fib.coverage" NAME="fib Coverage Results" MODIFIED="1613660768104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ztm_python$JPGtoPNGconverter.coverage" NAME="JPGtoPNGconverter Coverage Results" MODIFIED="1613882417045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image_processing" />
