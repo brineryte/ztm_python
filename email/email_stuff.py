@@ -9,11 +9,11 @@ dotenv.load_dotenv()
 print(os.getenv('EMAIL'))
 
 email = EmailMessage()
-email['from'] = 'Nugakmog'
-email['to'] = 'brineryte@gmail.com'
-email['subject'] = 'Hey you'
+email['from'] = input("From (name): ")
+email['to'] = input("To: ")
+email['subject'] = input("Subject: ")
 
-email.set_content('This is a test email message, sup!')
+email.set_content(input("Message: "))
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()
